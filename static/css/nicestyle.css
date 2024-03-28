@@ -1,0 +1,738 @@
+/*
+light pink
+#E4C4D6
+green
+#748173
+dark pink
+#CC6A9D
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section.about.bg-green {
+/*    margin-top: 165px;*/
+/*margin-top: 50px;*/
+	padding:30px 0 30px 0;
+}
+
+/*************NAVBAR BACKGROUNG*************/
+ul.navbar-nav.ms-auto {
+	background-color: #748173 ;
+}
+
+/*************NAVBAR FONT *************/
+.navbar .navbar-nav .nav-link {
+    color: black !important; 
+}
+
+/*************NAVBAR fONT BACKGROUNG*************/
+.navbar .navbar-nav .active {
+    color: #E4C4D6 !important;
+}
+
+/************* NAVBAR *************/
+.nav-link{
+	font-family: Arapey;
+	font-size: 32px;
+}
+
+.textarea {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	margin: 20px auto;
+	padding: 30px;
+	font-size: 30px;
+	width: 300px;
+	height: 300px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}
+
+
+@media screen and (min-width: 1024px) {
+	#textarea {
+		background-color: #ffffff;
+		color: #000000;
+	}
+}
+
+
+@media screen and (min-device-width: 768px) 
+	and (max-device-width: 1024px) {
+	#textarea {
+		width: 400px;
+		height: 400px;
+		background-color: rgb(255, 255, 255);
+		color: black;
+	}
+}
+
+
+@media screen and (max-device-width: 480px) 
+	and (orientation: portrait) {
+	#textarea {
+		width: 200px;
+		height: 200px;
+		background-color: rgb(255, 255, 255);
+		color: #000000;
+	}
+}
+
+
+@media screen and (max-device-width: 640px) 
+	and (orientation: landscape) {
+	#textarea {
+		width: 400px;
+		height: 200px;
+		background-color: rgb(255, 255, 255);
+		color: black;
+	}
+}
+
+@media screen
+and (max-device-width: 500px) {
+	#textarea {
+		/*width: 300px;*/
+		height: 200px;
+		background-color: rgb(255, 255, 255);
+		color: black;
+	}
+}
+
+@media screen
+and (max-device-width: 960px) {
+	section.about.bg-green{
+		margin-top: 53px !important;
+	}
+}
+
+
+
+section.about.bg-green {
+    margin-top: 165px;
+	padding:30px 0 30px 0;
+}
+
+
+
+.card_img{
+    height :93%;
+    width: 100%;
+}
+
+
+.wedding_stylist_text{
+    font-size:x-large;
+    text-align:left ;
+    font-family: Arapey; 
+	font-size:28px;
+	
+	
+}
+
+.wedding_stylist_text2{
+	font-size: large;
+    text-align:left ;
+    font-family: Arapey; 
+	font-size:20px;
+   
+}
+
+.What_we{
+    text-align: right ;
+     padding-top: 50px;
+/*	 font-size: x-large;*/
+	 font-family: Arapey; 
+	 font-size:28px;
+}
+.What_we2{
+    font-size:large;
+    text-align: right ;
+    font-family: Arapey; 
+	font-size:20px;
+   
+}
+
+
+
+.home_img_3{
+	border: 10px solid #748173;
+    margin-top: 20px;
+	
+}
+
+.about_img_3{
+	border: 10px solid #748173;
+	margin-top: 20px;
+}
+
+.contact_img_3{
+	
+	border: 10px solid #748173;
+	margin-top:20px;
+}
+
+.modal{
+	z-index: 999 !important;
+}
+
+/****************** Service Modal**************************/
+.modal-backdrop.show{
+	z-index:1 !important;
+}
+
+.modal-title{
+	background-color:#748173;
+	color: white;
+	font-size:20px;
+	
+	padding:10px 0px 10px 20;
+	
+}
+#modal_content{
+	border-radius:0%;
+	
+}
+.btn_color{
+background-color: #748173;	
+padding:8px 10px 8px 10px;
+border-radius: 0px;
+color: white;
+}
+
+.Service_image3{
+	border: 10px solid #748173;
+}
+
+.container_heading{
+color: white;
+/*text-decoration-line: underline;*/	
+text-align: center;
+}
+
+.Clients_text{
+	color: white;
+	text-align: left;
+font-size: 18px;
+font-weight:200;
+padding:0 0 50px 0;
+}
+
+
+
+
+
+
+#table_section{
+	border: 0px solid  #748173;
+	font-family: "Arapey";
+}
+
+
+
+.table_heading{
+	/*text-decoration-line: underline;*/	
+	text-align: center;
+	letter-spacing: 3px;	
+}
+.table.table.table-bordered {
+    margin-bottom: 0px;
+}
+.table {
+	padding: 1.5rem;
+	text-align: center;
+	font-size: 18px;
+	border-collapse: collapse;
+	text-shadow: #000000;
+  } 
+  
+
+  
+.table_head{
+	
+	text-align: center;
+	background-color:#748173;
+	color: white;
+	border: #000000;
+	letter-spacing: 2px;	
+	
+}
+
+
+
+.table_boday{
+	
+	border: #000000;
+	background-color: #f8fbf9;
+	
+}
+.table_boday tr td{
+padding:15px;
+text-align: center;
+}
+ 
+.table_head th{
+	padding:15px!important ;
+}
+
+
+.internation_client{
+	background-color: #CC6A9D;
+	color: white;
+	font-family: 'Arapey';
+	
+}
+
+/**************************************** FAQs - START ********************************************/
+
+/*.Faq_text{
+text-align: center !important;
+margin-top: 300px ;
+padding:10px;
+
+width: 340;
+font-size:25;
+background-color: #748173;
+color: white !important;
+
+}*/
+
+.accordion-item
+{
+  font-family: "Arapey";
+  font-size: 18px;
+}
+
+
+h2#head_font {
+    text-align: center;
+    font-family: "Arapey";
+	height: 10px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #748173  !important;
+    color: white !important;
+}
+
+
+
+
+.accordion-button:focus {
+    
+    box-shadow:white var(--bs-accordion-btn-focus-box-shadow) !important;
+    outline: 0;
+    z-index: 0;
+
+}
+
+
+
+#accordionFlushExample{
+	padding:80px;
+	padding-bottom:60px;
+}
+
+/**************************************** FAQs - END ********************************************/
+
+
+/********************************* Services - According - START *********************************/
+/* https://bootsnipp.com/snippets/3kB4m */
+
+
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+        font-family: "Arapey";
+
+
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: white;
+        background-color: #748173;
+        border-color: #EEEEEE;
+        
+
+    }
+
+    .panel-title {
+        font-size: 18px;
+        font-family: "Arapey";
+
+
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: "Arapey";
+       
+
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+        padding: 10px;
+        padding-bottom: 20px;
+        margin-left: 28px;
+        margin-right: 25px;
+        font-family: "Arapey";
+        font-size: 18px;
+
+
+    }
+/**************************************** Services - According - START ********************************************/
+
+/**************************************** Gallary Maing Page - START ********************************************/
+.section_gallary h5{
+	font-family: "Arapey";
+	letter-spacing: 1px;
+	
+}
+
+.card_explore a{
+	font-family: "Arapey";
+	font-size: 16px;
+	color: white;
+}
+
+.card_explore a:hover{	
+	color: white;
+}
+/**************************************** Gallary Maing Page - END ********************************************/
+
+
+/**************************************** Bridal Form - START **************************************************/
+
+/*.signup .content{
+	margin-right: 10px;
+
+}*/
+
+.signup1 .bridal_form {
+	background-color: #CC6A9D;
+	color: white;
+    border-radius: 50px;
+/*    border: 2px solid #748173;*/
+    border-top:none;
+    border-bottom:none;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 6px;
+    margin-bottom: 0px;
+    /*margin-right: 0px;*/
+  	font-family: "Arapey";
+	font-size: 16px;   
+    position: relative;
+}
+
+.signup1 .input_fields{
+
+	border-radius: 2rem;
+	border:none;
+	width: 150px;
+	height: auto;
+	padding:0px 10px;
+
+}
+
+/*.signup1 input[name=name].input_fields{
+	width: 300px;
+}*/
+
+.signup1 input[name=no_of_events].input_fields{
+	width: 60px;
+}
+
+.signup1 input[type=date].input_fields{
+	width: 120px;
+}
+
+
+
+
+.signup1 .table{
+	
+	border:10px;
+	border-color: red;
+	width: 150px;
+	padding:0px 10px;
+}
+
+
+.signup1 .textarea_fields{
+
+	border-radius: 1.2rem;
+	border:none;
+	
+/*	width: 150px;*/
+	padding:0px 10px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+
+}
+
+.signup1 input[type=checkbox]:checked{
+   accent-color: #748173;
+
+}
+
+.signup1 .submitBtn .butn-dark{
+
+color: white;
+width:150px !important;
+height: 30px;
+padding: 5px;
+text-align: center;
+
+}
+
+.signup1 .submitBtn a:hover button{
+background-color: #748173;
+
+
+}
+/**************************************** Bridal Form - END **************************************************/
+
+/****************************************Gallary - Pages  ********************************************/
+/* gallary all images*/
+#pic_hight{
+	height: 450px;
+	margin-left:10px;
+}
+
+/* Our Brides 1st row */
+img#pic_hight {
+	height: 450px;
+    margin-left: 0px !important;
+}
+
+.row.photos {
+    display: flex;
+    justify-content: center;
+}
+
+h2.text-center.mt-2 {
+    font-family: 'Arapey';
+}
+
+h1.gallary_pages_h1 {
+    font-family: 'Arapey';
+}
+
+#footer_text{
+	font-family: 'Arapey';
+}
+
+/**************************************** Gallary - Pages- END **************************************************/
+
+
+/************************************* Menu (Navigation - Top) Start *******************************************/
+
+#navbar a{
+
+	font-family: 'Arapey';
+	font-size: 18px;
+}
+
+/************************************* Menu (Navigation - Top) End *******************************************/
+
+div#navbar {
+	position: sticky;
+	top: 20px;
+
+}
+
+.subnav-content {
+	display: none;
+	/* position: absolute; */
+	right: 0;
+	padding-right:120px;
+	width: 100%;
+	z-index: 1;
+  }
+  
+  .subnav-content a {
+	
+	float: right;
+	color:rgb(10, 9, 9);
+	text-decoration: none;
+  }
+  
+  .subnav-contenton a:hover {
+
+	color:red;
+  }
+  .subnav:hover .subnav-content {
+	display: block;
+	width: 234px;
+	margin-left:5px;
+  }
+
+  element.style {
+    margin-left: 32%;
+}
+
+  @media (max-width: 390px) {
+	.subnav:hover .subnav-content {
+		display: block;
+		padding-left:5%;
+	  }
+  }
+  .subnav {
+    width: 125px;
+	/*height: 35px;*/
+}
+
+/*
+ Change font color for screens  	with a maximum width of 768px */
+ @media (max-width: 768px) {
+	.subnav-content a{
+	   color: black;
+	  display: block !important;
+	   width: auto;
+	   width: 100%;
+   
+	 }
+   }
+   
+   
+   /* Change font color for screens with a maximum width of 480px */
+   @media (max-width: 480px) {
+   .subnav-content a{
+	   color:black;
+		display: block !important;
+	  
+	   width: 105%;
+	   
+   
+	 }
+   }
+ 
+
+   /* Button used to WhatsApp icon */
+.open-button {
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 10px;
+	right: 2px;
+	width: 130px;
+	vertical-align: bottom; /* Align the icon to the bottom */
+  }
+  
+  .whatsapp-icon {
+	width: 40px; /* Adjust the size as needed */
+	height: 40px; /* Adjust the size as needed */
+	
+}
+  
+button.btn.btn-outline-success {
+	margin: 6px;
+}
+
+
+/************* Whats app div ****************/
+.box {
+	width: 300px;
+	height: 160px;
+	background-color: #748173;
+	border-radius: 5px;
+	padding: 20px 20px 20px 20px;
+  
+	
+  }
+  
+  
+  .box textarea {
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 font-size: 13px;
+	 padding: 10px;
+	  border: none;
+	  font-family: Arapey;
+  
+  }
+  
+  .box textarea::placeholder {
+	font-size: 13px;
+	font-family: Arapey;
+  }
+  
+  .box .row{
+	  margin-top: 5px;
+  }
+  
+  .box button {
+	  border:none;
+	  font-size: 12px;
+	  border-radius: 5px;
+	  width: 70%;    
+	  background-color: black;
+		 color: white;
+		 margin-top: 5px;
+		 font-family: Arapey;
+  }
+  
+  .box button:hover {
+		 
+	  background-color: #E4C4D6;
+  }
+  
+  .box button[type=button]{
+  
+	  margin-right: 50px;
+  
+  }
+  
+  .box button[type=submit]{
+  
+	  margin-left: 40px;
+  }
+  
+  
+
+   /* Media query for screens smaller than 768px */
+   @media only screen and (max-width: 768px) {
+	button.btn.btn-sm.p-1 {
+		margin-left: 1px;
+		width: 80px;
+		
+	}
+	#send_btn{
+		width: 100px;
+	}
+	  .box {
+		margin-left: 35px;
+		width: 276px;
+	}
+	textarea {
+		width: 244px;
+	}
+   
+      }
+
